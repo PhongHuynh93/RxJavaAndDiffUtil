@@ -20,6 +20,9 @@ import io.reactivex.disposables.Disposable;
 import static io.reactivex.android.schedulers.AndroidSchedulers.mainThread;
 import static io.reactivex.schedulers.Schedulers.computation;
 
+/**
+ * <a href="https://hellsoft.se/a-nice-combination-of-rxjava-and-diffutil-fe3807186012"></a>
+ */
 public class MainActivity extends AppCompatActivity {
   private MyAdapter adapter;
   private Disposable disposable;
